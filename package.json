@@ -1,0 +1,19 @@
+{
+  "name": "automation313",
+  "version": "1.0.0",
+  "description": "Automation Practice 313",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "QA",
+    "Automation",
+    "313"
+  ],
+  "author": "ponTesting",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  }
+}
