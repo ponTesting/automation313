@@ -24,9 +24,17 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add("search", (value) => {
+Cypress.Commands.add("login", (user, password) => {
   cy.fixture("index").then((index) => {
-    cy.get(index.searchbox).type(value);
-    cy.get(index.searchbtn).click();
+    cy.get(index.signIn).dblclick();
+    cy.get(index.userBox).type(user);
+    cy.get(index.password).type(password);
+    cy.get(index.log).click();
+  });
+});
+Cypress.Commands.add("toDoCreator", (name) => {
+  cy.fixture("index").then((index) => {
+    cy.get(index.taskName).type(name);
+    cy.get(index.send).click();
   });
 });

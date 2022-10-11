@@ -1,0 +1,40 @@
+node_modules\.bin\cypress open
+".class"
+"#id"
+describe = Test Suite
+it = TestCases
+before =      funcion antes de correr TS
+after =       funcion despues de correr el TS
+beforeEach =  funcion antes de cada TC
+after =       funcion despues de cada TC
+
+---Cypress with POM
+
+support folder archive.js
+create class
+constructor with elements
+methods with functions
+export
+import in test suite
+use methods in TC
+
+
+---Cypress with Fixtures and Commands
+
+Create .json in fixtures with elements
+Create Commands calling cy.fixture
+***Cypress.Commands.add('login', (email, password) => { ... })
+import the commands file in e2e.js(support)
+
+
+cy.log();
+cy.visit();
+cy.get();
+cy.get().type
+cy.get().click
+cy.get().contains
+cy.get().clear
+cy.get().check
+cy.get().uncheck
+cy.get().select
+

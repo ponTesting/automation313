@@ -1,4 +1,10 @@
 {
-  "searchbox": "#search_query_top",
-  "searchbtn": "#searchbox > .btn"
+  "signIn": "#registertoggle",
+  "userBox": "#user",
+  "password": "#pass",
+  "log": "#submitForm",
+  "toDo": "#todolistlink",
+  "taskName": "#task",
+  "send": "#sendTask",
+  "logout": "#logout"
 }
